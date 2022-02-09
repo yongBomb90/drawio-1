@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T05:44:39.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="0Ur039v4sm-Og2Zo5gI4" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T06:25:35.956Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="6FcYEeXwrYgYGLF8Tjjx" version="16.5.3" type="github">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="휴무일 처리 1안">
-    <mxGraphModel dx="2893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -233,9 +233,6 @@
         </mxCell>
         <mxCell id="Ka4MoPTzc-1YtRU2JHfL-59" value="&lt;span&gt;배송 기준 일자&amp;nbsp; =&amp;nbsp;&amp;nbsp;&lt;/span&gt;최근 배송 요일 일자" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="292" y="3100" width="244" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-60" value="&lt;span style=&quot;&quot;&gt;불필요해 보임 이전 출고 일자 처리에서 처리 가능해보임&amp;nbsp;&lt;br&gt;Q1. 출고일 이루 배송일사이 대기일간 휴무일에 대한 처리가 필요하다면 해당 분기가 필요해 보임&lt;/span&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#FFF2CC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFF2CC;" parent="1" vertex="1">
-          <mxGeometry x="174.99" y="3050" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ka4MoPTzc-1YtRU2JHfL-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.446;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-62" target="Ka4MoPTzc-1YtRU2JHfL-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
