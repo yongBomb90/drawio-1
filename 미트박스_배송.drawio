@@ -1,1 +1,262 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T04:59:54.449Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" version="16.5.3" etag="Km6HxKoKwGOlvWfTJj0d" type="github"><diagram id="VzNQY1p_oXzeHTvAkOu7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-09T05:01:18.854Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="wbz6CMQOrcffpOqyfIkp" version="16.5.3" type="github">
+  <diagram id="VzNQY1p_oXzeHTvAkOu7" name="Page-1">
+    <mxGraphModel dx="2893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-2" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-5" target="Ka4MoPTzc-1YtRU2JHfL-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-5" target="Ka4MoPTzc-1YtRU2JHfL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-4" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ka4MoPTzc-1YtRU2JHfL-3">
+          <mxGeometry x="-0.1212" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-5" value="현재 시간 &amp;gt; 마감시간" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="325" y="320" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-7" target="Ka4MoPTzc-1YtRU2JHfL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-7" value="주문 및 결제 처리 완료&lt;br&gt;주문 데이터 조회" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="80" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-9" value="&lt;span&gt;마감시간 = 창고 / 배송방법에 따른 마감시간 조회&lt;br&gt;&lt;/span&gt;출고요일&amp;nbsp;= 창고 / 배송방법에 따른 출고요일 조회&lt;span&gt;&lt;br&gt;(기존 데이터베이스에서 조회)&lt;/span&gt;&lt;br&gt;기준 날짜 = 주문날짜&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-11" target="Ka4MoPTzc-1YtRU2JHfL-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-11" value="기준날짜 = 기준날짜 + 1" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="120" y="570" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-13" target="Ka4MoPTzc-1YtRU2JHfL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-13" value="기준 날짜 와 상품 번호를 통해&lt;br&gt;기준일자에 대한 출고일 예외 처리 정보 조회" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="770" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-14" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-16" target="Ka4MoPTzc-1YtRU2JHfL-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-15" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-16" target="Ka4MoPTzc-1YtRU2JHfL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-16" value="예외 출고일 정보 유무" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="960" width="185" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-18" target="Ka4MoPTzc-1YtRU2JHfL-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="2710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-18" value="기준일자 = 예외 출고일자" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="975" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-19" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-21" target="Ka4MoPTzc-1YtRU2JHfL-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-20" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-21" target="Ka4MoPTzc-1YtRU2JHfL-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-21" value="제주도 여부" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320.62" y="1210" width="168.75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="115" y="1610" />
+              <mxPoint x="410" y="1610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-23" value="출고 대기 일자 = 상품에 따른 출고 대기 일자 조회" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1460" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="705" y="1610" />
+              <mxPoint x="410" y="1610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-25" value="출고 대기 일자 = DI에 따른 마감후 대기 일자" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1460" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-27" target="Ka4MoPTzc-1YtRU2JHfL-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-27" value="기준일자 = 기준일자 + 출고 대기 일자" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1754" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-29" target="Ka4MoPTzc-1YtRU2JHfL-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-29" value="기준일자 출고 휴무일 여부 정보 조회&lt;br&gt;(상품정보를 통해&amp;nbsp; 출고 휴일 여부 정보 데이터 조회)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="2110" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-34" target="Ka4MoPTzc-1YtRU2JHfL-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-31" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ka4MoPTzc-1YtRU2JHfL-30">
+          <mxGeometry x="-0.2571" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-34" target="Ka4MoPTzc-1YtRU2JHfL-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="2560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="2265" />
+              <mxPoint x="200" y="2710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-33" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ka4MoPTzc-1YtRU2JHfL-32">
+          <mxGeometry x="-0.1978" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-34" value="출고 휴일 여부" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="342" y="2220" width="144" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-36" target="Ka4MoPTzc-1YtRU2JHfL-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-36" value="&lt;span&gt;기준일자 출고 비휴무일 예외 여부 정보 조회&lt;/span&gt;&lt;br&gt;&lt;span&gt;(상품정보를 통해 출고 비휴일 여부 정보 데이터 조회)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="299" y="2380" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-37" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-39" target="Ka4MoPTzc-1YtRU2JHfL-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-38" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-39" target="Ka4MoPTzc-1YtRU2JHfL-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="2550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-39" value="출고 비휴일 여부" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2510" width="147" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-41" target="Ka4MoPTzc-1YtRU2JHfL-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-41" value="출고 일자 = 기준 일자" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="2680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-43" target="Ka4MoPTzc-1YtRU2JHfL-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="1910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-43" value="기준일자 = 기준일자 +1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-45" target="Ka4MoPTzc-1YtRU2JHfL-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-45" value="최근 출고 요일 일자 = 기준일자 기준 가장 가까운 출고 요일 일자 조회&lt;br&gt;(데이터 베이스가 아닌 로직으로 처리)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="233" y="1880" width="361" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-47" target="Ka4MoPTzc-1YtRU2JHfL-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-47" value="기준일자 = 최근 출고 요일 일자" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="332" y="1990" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-49" target="Ka4MoPTzc-1YtRU2JHfL-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-49" value="배송 기준 일자 = 출고 일자+1&amp;nbsp;&lt;br&gt;배송 요일 = 상품별 배송요일정보 [불필요 데이터로 보임 출고시 미리 처리함]&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="221.5" y="2820" width="385" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-51" target="Ka4MoPTzc-1YtRU2JHfL-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-51" value="배송 기준일자 휴무일 여부 정보 조회&amp;nbsp;&lt;br&gt;(상품정보를 통해 휴일 여부 정보 데이터 조회)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="292" y="3260" width="244" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-52" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-55" target="Ka4MoPTzc-1YtRU2JHfL-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-55" target="Ka4MoPTzc-1YtRU2JHfL-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-54" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ka4MoPTzc-1YtRU2JHfL-53">
+          <mxGeometry x="-0.0423" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-55" value="배송 휴일 여부" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="351" y="3390" width="126" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-57" target="Ka4MoPTzc-1YtRU2JHfL-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-57" value="최근 배송 요일 일자 =&amp;nbsp;배송&amp;nbsp;기준일자 기준 가장 가까운 배송 요일 일자 조회&lt;br&gt;(데이터 베이스가 아닌 로직으로 처리)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200.75" y="2950" width="426.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-59" target="Ka4MoPTzc-1YtRU2JHfL-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-59" value="&lt;span&gt;배송 기준 일자&amp;nbsp; =&amp;nbsp;&amp;nbsp;&lt;/span&gt;최근 배송 요일 일자" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="292" y="3100" width="244" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-60" value="&lt;span style=&quot;&quot;&gt;불필요해 보임 이전 출고 일자 처리에서 처리 가능해보임&amp;nbsp;&lt;br&gt;Q1. 출고일 이루 배송일사이 대기일간 휴무일에 대한 처리가 필요하다면 해당 분기가 필요해 보임&lt;/span&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#FFF2CC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="174.99" y="3050" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.446;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-62" target="Ka4MoPTzc-1YtRU2JHfL-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-62" value="&amp;nbsp;배송일자 = 배송 기준 일자" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="292" y="3580" width="244" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ka4MoPTzc-1YtRU2JHfL-64" target="Ka4MoPTzc-1YtRU2JHfL-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="2980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-64" value="&lt;span&gt;배송 기준 일자&amp;nbsp; =&amp;nbsp; 배송 기준 일자 + 1&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="3400" width="244" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ka4MoPTzc-1YtRU2JHfL-65" value="출고일자 , 배송일자 Out" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="3720" width="166" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
