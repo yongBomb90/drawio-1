@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T03:13:45.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="9Q1mOKIeSNXNjD8hd31U" version="16.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-10T03:29:09.295Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="WxLGjYQZHxlxOQ-qqnw-" version="16.5.3" type="github" pages="4">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="휴무일 처리 1안">
     <mxGraphModel dx="2893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -368,6 +368,14 @@
         <mxCell id="qcPXBjvDIgScsVP_rZg_-34" value="회색 순서는 실제 배송정보 조회와 &lt;br&gt;큰 영향도는 없으나 화면에서 사용중임" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#333333;" vertex="1" parent="uPJKY-3OwysXw3wWVKP1-1">
           <mxGeometry x="-413" y="650" width="190" height="50" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="a1z9E_dpwkasAy9aKoVA" name="대량구매 출고/배송일 계산">
+    <mxGraphModel dx="2066" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="RsmAda38CNGpkVphOUSr-0" />
+        <mxCell id="RsmAda38CNGpkVphOUSr-1" parent="RsmAda38CNGpkVphOUSr-0" />
       </root>
     </mxGraphModel>
   </diagram>
