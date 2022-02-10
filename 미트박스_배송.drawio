@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T08:44:08.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="454e9BuEEpb5qLeOuqox" version="16.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-10T02:11:39.987Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Yab2Q7_yu26CoWDqXKf-" version="16.5.3" type="github" pages="2">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="휴무일 처리 1안">
-    <mxGraphModel dx="2893" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="v3OYYm9u9Kp0wijlsDwA-1" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="v3OYYm9u9Kp0wijlsDwA-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-590" y="50" width="1110" height="3700" as="geometry" />
         </mxCell>
         <mxCell id="Ka4MoPTzc-1YtRU2JHfL-5" value="현재 시간 &amp;gt; 마감시간" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="v3OYYm9u9Kp0wijlsDwA-1" vertex="1">
@@ -256,10 +256,19 @@
         <mxCell id="Ka4MoPTzc-1YtRU2JHfL-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.446;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="v3OYYm9u9Kp0wijlsDwA-1" source="Ka4MoPTzc-1YtRU2JHfL-62" target="Ka4MoPTzc-1YtRU2JHfL-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_1lw4KRuPsajqVjGMdd5-1" value="츌고일 조회" style="swimlane;horizontal=0;labelBackgroundColor=#FFFFFF;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="v3OYYm9u9Kp0wijlsDwA-1">
+          <mxGeometry x="-160" y="440" width="1270" height="2230" as="geometry" />
+        </mxCell>
+        <mxCell id="_1lw4KRuPsajqVjGMdd5-6" value="배송일 조회" style="swimlane;horizontal=0;labelBackgroundColor=#FFFFFF;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="v3OYYm9u9Kp0wijlsDwA-1">
+          <mxGeometry x="-160" y="2690" width="1270" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="_1lw4KRuPsajqVjGMdd5-2" value="마감 여부 조회" style="swimlane;horizontal=0;labelBackgroundColor=#FFFFFF;fillColor=#FFF2CC;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="250" width="1270" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="N_eY2CtoQwLmM7Ibbt4v" name="테이블설계도">
+  <diagram id="N_eY2CtoQwLmM7Ibbt4v" name="테이블설계도">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="BQgfGsZmI9zJLPWZiyGh-0" />
