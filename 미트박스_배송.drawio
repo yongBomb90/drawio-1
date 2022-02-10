@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T02:47:03.193Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="TmuzsjSzqLhGoivep4Pj" version="16.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-10T02:48:27.290Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="amI7HVvkiTSi1RyBIaXj" version="16.5.3" type="github" pages="3">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="휴무일 처리 1안">
     <mxGraphModel dx="2893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -269,7 +269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o2NzunDyzg4TnvlhAIjw" name="예상 휴무일 순서도">
-    <mxGraphModel dx="2893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uPJKY-3OwysXw3wWVKP1-0" />
         <mxCell id="uPJKY-3OwysXw3wWVKP1-1" parent="uPJKY-3OwysXw3wWVKP1-0" />
@@ -289,7 +289,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qcPXBjvDIgScsVP_rZg_-4" value="출고일 = 주문정보와 기준일자를 통해 조회&lt;br&gt;배송일 = 주문정보와 기준일자를 통해 조회&lt;br&gt;(&lt;span style=&quot;background-color: rgb(255 , 255 , 153)&quot;&gt;배송일을 조회하기 위하여 마감여부 출고일을 모두 구하여야함 그리하여 배송일 조회 메소드안에서 구현됨&lt;br&gt;AS-IS 에서는 각각에 대한 메소드만 있어서 똑같은 메소드를 여러번 콜함&lt;/span&gt;)" style="whiteSpace=wrap;html=1;" vertex="1" parent="uPJKY-3OwysXw3wWVKP1-1">
-          <mxGeometry x="-630" y="240" width="360" height="130" as="geometry" />
+          <mxGeometry x="-622" y="240" width="360" height="130" as="geometry" />
         </mxCell>
         <mxCell id="qcPXBjvDIgScsVP_rZg_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uPJKY-3OwysXw3wWVKP1-1" target="qcPXBjvDIgScsVP_rZg_-9">
           <mxGeometry relative="1" as="geometry">
