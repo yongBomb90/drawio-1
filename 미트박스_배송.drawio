@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T02:48:27.290Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="amI7HVvkiTSi1RyBIaXj" version="16.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-10T03:12:49.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="k1l6O7ThDY-GmyvziYwS" version="16.5.3" type="github" pages="3">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="휴무일 처리 1안">
     <mxGraphModel dx="2893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -349,8 +349,7 @@
         <mxCell id="qcPXBjvDIgScsVP_rZg_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="uPJKY-3OwysXw3wWVKP1-1" source="qcPXBjvDIgScsVP_rZg_-27" target="qcPXBjvDIgScsVP_rZg_-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-444" y="949" />
-              <mxPoint x="-200" y="949" />
+              <mxPoint x="-200" y="1019" />
               <mxPoint x="-200" y="273" />
             </Array>
           </mxGeometry>
