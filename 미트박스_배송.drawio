@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T05:25:59.059Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="yvj-SRjSROlNdTbETa_F" version="16.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-10T05:31:34.115Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ERN1zuRMRdm9NcLw0KL4" version="16.5.3" type="github" pages="4">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="휴무일 처리 1안">
     <mxGraphModel dx="2893" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -371,7 +371,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="a1z9E_dpwkasAy9aKoVA" name="대량구매 출고/배송일 계산">
+  <diagram id="a1z9E_dpwkasAy9aKoVA" name="대량구매 배송일 계산">
     <mxGraphModel dx="3720" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RsmAda38CNGpkVphOUSr-0" />
@@ -590,6 +590,11 @@
         <mxCell id="mF4t8ZNP56GZA__ki9Z4-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RsmAda38CNGpkVphOUSr-1" source="mF4t8ZNP56GZA__ki9Z4-48" target="mF4t8ZNP56GZA__ki9Z4-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-76" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF4t8ZNP56GZA__ki9Z4-53">
+          <mxGeometry x="-0.45" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mF4t8ZNP56GZA__ki9Z4-48" value="기준일자 주말 여부&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" vertex="1" parent="RsmAda38CNGpkVphOUSr-1">
           <mxGeometry x="-498.02" y="1650" width="112.01" height="80" as="geometry" />
         </mxCell>
@@ -602,8 +607,74 @@
         <mxCell id="mF4t8ZNP56GZA__ki9Z4-54" value="휴일 데이터는 하드코딩 되어있는 리스트 조회로 처리됨 추후 데이터 베이스에서&lt;br&gt;&amp;nbsp;공휴일 정보만 조회하여 처리하는 방향으로 접근" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="RsmAda38CNGpkVphOUSr-1">
           <mxGeometry x="-460" y="1390" width="413" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RsmAda38CNGpkVphOUSr-1" source="mF4t8ZNP56GZA__ki9Z4-55" target="mF4t8ZNP56GZA__ki9Z4-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mF4t8ZNP56GZA__ki9Z4-55" value="배송 기준일자 = 출고일 + 1" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" vertex="1" parent="RsmAda38CNGpkVphOUSr-1">
           <mxGeometry x="-513.02" y="1870" width="142.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RsmAda38CNGpkVphOUSr-1" source="mF4t8ZNP56GZA__ki9Z4-63" target="mF4t8ZNP56GZA__ki9Z4-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-72" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF4t8ZNP56GZA__ki9Z4-68">
+          <mxGeometry x="-0.369" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RsmAda38CNGpkVphOUSr-1" source="mF4t8ZNP56GZA__ki9Z4-63" target="mF4t8ZNP56GZA__ki9Z4-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-73" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF4t8ZNP56GZA__ki9Z4-70">
+          <mxGeometry x="-0.1849" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-63" value="배송 기준일자 휴일" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="RsmAda38CNGpkVphOUSr-1">
+          <mxGeometry x="-508.03" y="2050" width="132.01" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RsmAda38CNGpkVphOUSr-1" source="mF4t8ZNP56GZA__ki9Z4-64" target="mF4t8ZNP56GZA__ki9Z4-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-64" value="배송기준일자 휴일 여부 조회" style="whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;" vertex="1" parent="RsmAda38CNGpkVphOUSr-1">
+          <mxGeometry x="-513.02" y="1960" width="141.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RsmAda38CNGpkVphOUSr-1" source="mF4t8ZNP56GZA__ki9Z4-67" target="mF4t8ZNP56GZA__ki9Z4-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-245" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-67" value="배송기준일자 = 배송기준일자 + 1" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="RsmAda38CNGpkVphOUSr-1">
+          <mxGeometry x="-330" y="2065" width="170.01" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="RsmAda38CNGpkVphOUSr-1" source="mF4t8ZNP56GZA__ki9Z4-69" target="mF4t8ZNP56GZA__ki9Z4-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-75" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF4t8ZNP56GZA__ki9Z4-74">
+          <mxGeometry x="-0.5707" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RsmAda38CNGpkVphOUSr-1" source="mF4t8ZNP56GZA__ki9Z4-69" target="mF4t8ZNP56GZA__ki9Z4-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-79" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF4t8ZNP56GZA__ki9Z4-78">
+          <mxGeometry x="-0.3556" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-69" value="배송 기준일자 주말 여부" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="RsmAda38CNGpkVphOUSr-1">
+          <mxGeometry x="-509" y="2170" width="132.98" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RsmAda38CNGpkVphOUSr-1" source="mF4t8ZNP56GZA__ki9Z4-77" target="mF4t8ZNP56GZA__ki9Z4-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-77" value="배송일 = 배송기준일자" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="RsmAda38CNGpkVphOUSr-1">
+          <mxGeometry x="-501.99" y="2310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mF4t8ZNP56GZA__ki9Z4-80" value="출고일 / 배송일 out" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;" vertex="1" parent="RsmAda38CNGpkVphOUSr-1">
+          <mxGeometry x="-502.01" y="2400" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
