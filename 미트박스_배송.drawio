@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T07:23:52.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="8HTZOQUgSEseDVdST2WD" version="16.5.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-11T08:32:19.267Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Ih-7xyWTQ7yQjNmd5Kcz" version="16.5.5" type="github" pages="5">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
     <mxGraphModel dx="2893" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -680,7 +680,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TA0Z4bNqyo2ag06-_ORL" name="기존 마감 여부 처리">
-    <mxGraphModel dx="2066" dy="2156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="2156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="mY5nR9ckyEbrIw-Yr9zr-0" />
         <mxCell id="mY5nR9ckyEbrIw-Yr9zr-1" parent="mY5nR9ckyEbrIw-Yr9zr-0" />
