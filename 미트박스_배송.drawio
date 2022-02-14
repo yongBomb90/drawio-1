@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T03:28:15.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="fDfIqd2TpYbQvVs2cXF4" version="16.5.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-14T03:29:15.757Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="b9l9amAEJIYJPUyq4h_m" version="16.5.6" type="github" pages="6">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
     <mxGraphModel dx="2893" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1482,8 +1482,8 @@
         <mxCell id="w7GMmNJZJ5BWR0lbrCnV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1bwJmyN0uH8IyjruuvOx-1" source="w7GMmNJZJ5BWR0lbrCnV-0" target="w7GMmNJZJ5BWR0lbrCnV-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w7GMmNJZJ5BWR0lbrCnV-0" value="기준일자 = 결제일자" style="whiteSpace=wrap;html=1;" vertex="1" parent="1bwJmyN0uH8IyjruuvOx-1">
-          <mxGeometry x="354" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="w7GMmNJZJ5BWR0lbrCnV-0" value="기준일자 = 결제일자&lt;br&gt;츨고요일 = 상품출고요일" style="whiteSpace=wrap;html=1;" vertex="1" parent="1bwJmyN0uH8IyjruuvOx-1">
+          <mxGeometry x="349" y="150" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="laZVmdF4gfVj1QpAqn2Q-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1bwJmyN0uH8IyjruuvOx-1" source="w7GMmNJZJ5BWR0lbrCnV-2" target="laZVmdF4gfVj1QpAqn2Q-0">
           <mxGeometry relative="1" as="geometry" />
