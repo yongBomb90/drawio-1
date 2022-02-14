@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T09:15:48.306Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="22pAsH_S4CKGDrnE9qRd" version="16.5.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-14T09:19:20.455Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="x3UUh9b2NZEIFgKuXW2M" version="16.5.6" type="github" pages="6">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
     <mxGraphModel dx="2893" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2040,6 +2040,19 @@
         <mxCell id="YSPtcAIfp2PEMLw785tw-34" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1bwJmyN0uH8IyjruuvOx-1" source="Qd1QWC2Lc2Fe114F6NoC-87" target="YSPtcAIfp2PEMLw785tw-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YSPtcAIfp2PEMLw785tw-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1bwJmyN0uH8IyjruuvOx-1" source="Qd1QWC2Lc2Fe114F6NoC-87" target="YSPtcAIfp2PEMLw785tw-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="3130" />
+              <mxPoint x="900" y="4646" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSPtcAIfp2PEMLw785tw-174" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YSPtcAIfp2PEMLw785tw-173">
+          <mxGeometry x="-0.796" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Qd1QWC2Lc2Fe114F6NoC-87" value="제주도 여부" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1bwJmyN0uH8IyjruuvOx-1" vertex="1">
           <mxGeometry x="374" y="3090" width="80" height="80" as="geometry" />
         </mxCell>
@@ -2107,10 +2120,23 @@
         <mxCell id="YSPtcAIfp2PEMLw785tw-27" value="기준일자 = 다음 변경 요일 일자" style="whiteSpace=wrap;html=1;" vertex="1" parent="1bwJmyN0uH8IyjruuvOx-1">
           <mxGeometry x="-49.75" y="3960" width="158.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YSPtcAIfp2PEMLw785tw-35" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1bwJmyN0uH8IyjruuvOx-1" source="YSPtcAIfp2PEMLw785tw-32" target="isauLcZdOPbVrSTzOkNS-0">
+        <mxCell id="YSPtcAIfp2PEMLw785tw-35" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1bwJmyN0uH8IyjruuvOx-1" source="YSPtcAIfp2PEMLw785tw-32" target="isauLcZdOPbVrSTzOkNS-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YSPtcAIfp2PEMLw785tw-32" value="무조건 출고 일자 여부" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1bwJmyN0uH8IyjruuvOx-1">
+        <mxCell id="YSPtcAIfp2PEMLw785tw-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1bwJmyN0uH8IyjruuvOx-1" source="YSPtcAIfp2PEMLw785tw-32" target="YSPtcAIfp2PEMLw785tw-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="3290" />
+              <mxPoint x="900" y="4646" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSPtcAIfp2PEMLw785tw-178" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="YSPtcAIfp2PEMLw785tw-177">
+          <mxGeometry x="-0.8039" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSPtcAIfp2PEMLw785tw-32" value="기준일자 무조건 출고 일자 여부" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1bwJmyN0uH8IyjruuvOx-1">
           <mxGeometry x="374" y="3250" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YSPtcAIfp2PEMLw785tw-40" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1bwJmyN0uH8IyjruuvOx-1" source="YSPtcAIfp2PEMLw785tw-37" target="YSPtcAIfp2PEMLw785tw-39">
