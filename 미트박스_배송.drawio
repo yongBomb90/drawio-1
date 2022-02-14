@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T08:08:17.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="1llMltdLbZfH13eOYOw7" version="16.5.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-14T08:08:49.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="PlA4i-Ivq7vObzBrMmoZ" version="16.5.6" type="github" pages="6">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
     <mxGraphModel dx="2893" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2148,6 +2148,9 @@
         <mxCell id="YSPtcAIfp2PEMLw785tw-41" value="기준일자 = 기준일자 +1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1bwJmyN0uH8IyjruuvOx-1">
           <mxGeometry x="-30.5" y="4415" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YSPtcAIfp2PEMLw785tw-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1bwJmyN0uH8IyjruuvOx-1" source="YSPtcAIfp2PEMLw785tw-43" target="YSPtcAIfp2PEMLw785tw-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YSPtcAIfp2PEMLw785tw-43" value="출고요일에 따른 출고일 구하기" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1bwJmyN0uH8IyjruuvOx-1">
           <mxGeometry x="311" y="4616" width="193" height="60" as="geometry" />
         </mxCell>
@@ -2188,6 +2191,9 @@
         </mxCell>
         <mxCell id="YSPtcAIfp2PEMLw785tw-60" value="기준일자 = 다음 변경 요일 일자" style="whiteSpace=wrap;html=1;" vertex="1" parent="1bwJmyN0uH8IyjruuvOx-1">
           <mxGeometry x="622.75" y="3960" width="158.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YSPtcAIfp2PEMLw785tw-66" value="출고일 OUT" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1bwJmyN0uH8IyjruuvOx-1">
+          <mxGeometry x="347.5" y="4760" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
