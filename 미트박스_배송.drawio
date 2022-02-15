@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T05:11:16.099Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="pcDb3bSp6TLDAgQaMFtC" version="16.5.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-02-15T05:49:57.313Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="SSaZseKPatSnwvC6_BmA" version="16.5.6" type="github" pages="7">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
     <mxGraphModel dx="2893" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1488,10 +1488,10 @@
         <mxCell id="yCC202qC8m_YEvJilXLJ-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1bwJmyN0uH8IyjruuvOx-1">
           <mxGeometry x="999.37" y="3630" width="380" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="Qd1QWC2Lc2Fe114F6NoC-24" value="&lt;h2&gt;판매자 직배 요일 관련 처리&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;" parent="1bwJmyN0uH8IyjruuvOx-1" vertex="1">
+        <mxCell id="Qd1QWC2Lc2Fe114F6NoC-24" value="&lt;h2&gt;판매자 직배 요일 관련 처리&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;dashed=1;" parent="1bwJmyN0uH8IyjruuvOx-1" vertex="1">
           <mxGeometry x="-300" y="1390" width="850" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="JXnTmWSUI8Br4efB8LB3-30" value="&lt;h2&gt;DI17 요일 관련 처리&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;" parent="1bwJmyN0uH8IyjruuvOx-1" vertex="1">
+        <mxCell id="JXnTmWSUI8Br4efB8LB3-30" value="&lt;h2&gt;DI17 요일 관련 처리&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;dashed=1;" parent="1bwJmyN0uH8IyjruuvOx-1" vertex="1">
           <mxGeometry x="-289" y="870" width="839" height="330" as="geometry" />
         </mxCell>
         <mxCell id="w7GMmNJZJ5BWR0lbrCnV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1bwJmyN0uH8IyjruuvOx-1" source="xzi1oE7dvDOyDpjqPjoT-0" target="w7GMmNJZJ5BWR0lbrCnV-0" edge="1">
