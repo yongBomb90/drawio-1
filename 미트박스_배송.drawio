@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T03:30:54.595Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="HW3Oj5Z75s8-bpj4u3F6" version="16.5.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-15T04:21:42.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="WsbakwWI38FWpuTEJ8ZM" version="16.5.6" type="github" pages="6">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
     <mxGraphModel dx="2893" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3027,6 +3027,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1550" y="4110" as="sourcePoint" />
             <mxPoint x="-1440" y="4110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8sAcmIZvtNbVmwIyn7VH-25" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;strokeColor=#000000;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1bwJmyN0uH8IyjruuvOx-1" source="8sAcmIZvtNbVmwIyn7VH-24" target="YSPtcAIfp2PEMLw785tw-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="4450" as="sourcePoint" />
+            <mxPoint x="110" y="4400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
