@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T05:40:32.169Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="1dZF73YWRVhniYsxa98Z" version="16.5.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-02-16T05:42:25.533Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="TuU_F9RmswBPu__oqiMC" version="16.5.6" type="github" pages="8">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
     <mxGraphModel dx="1413" dy="1542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -847,7 +847,7 @@
           <mxGeometry x="690" y="612" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m5xoe-D0azOf_mdFd-xB-61" value="분기 설명 정보" style="swimlane;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="mY5nR9ckyEbrIw-Yr9zr-1" vertex="1">
-          <mxGeometry x="880" y="-60" width="1490" height="4350" as="geometry">
+          <mxGeometry x="940" y="-60" width="1500" height="3440" as="geometry">
             <mxRectangle x="840.5" y="1110" width="100" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
