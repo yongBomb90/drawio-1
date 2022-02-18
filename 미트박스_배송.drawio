@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T01:13:22.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6cypzS4wZrCfDwfhoUDK" version="16.5.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-02-18T01:14:00.312Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="eXBzjxvnLWzY5ea5Y_f5" version="16.5.6" type="github" pages="10">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
     <mxGraphModel dx="2893" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3968,6 +3968,11 @@
         <mxCell id="nVqhvKIiBmnwf-QszjKU-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="nVqhvKIiBmnwf-QszjKU-0" source="nVqhvKIiBmnwf-QszjKU-72" target="nVqhvKIiBmnwf-QszjKU-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nVqhvKIiBmnwf-QszjKU-90" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="nVqhvKIiBmnwf-QszjKU-79">
+          <mxGeometry x="-0.06" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nVqhvKIiBmnwf-QszjKU-80" value="출고일/ 배송일 출력" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="nVqhvKIiBmnwf-QszjKU-0">
           <mxGeometry x="520" y="2750" width="120" height="80" as="geometry" />
         </mxCell>
@@ -4323,6 +4328,11 @@
         </mxCell>
         <mxCell id="teCYzoGApakaE_meU0uc-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="wDixHEiqKprVfDnBNGt2-0" source="teCYzoGApakaE_meU0uc-24" target="teCYzoGApakaE_meU0uc-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9okL8G3QPjpE48XMgorm-0" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="teCYzoGApakaE_meU0uc-33">
+          <mxGeometry x="-0.12" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IMPAkDT6Jbi1ofSsfZqU-0" value="출고일/ 배송일 출력" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;fontSize=14;fillColor=#b1ddf0;strokeColor=#10739e;" parent="wDixHEiqKprVfDnBNGt2-0" vertex="1">
           <mxGeometry x="520" y="2750" width="120" height="80" as="geometry" />
