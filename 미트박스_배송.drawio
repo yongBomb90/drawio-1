@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T01:12:42.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="qxCtInt9XJ_Ed44Kl8Qo" version="16.5.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-02-18T01:13:22.652Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6cypzS4wZrCfDwfhoUDK" version="16.5.6" type="github" pages="10">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
     <mxGraphModel dx="2893" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3656,7 +3656,7 @@
         <mxCell id="Cq5v2kxeQ0p4bNHD0YzK-33" value="&lt;span&gt;출고일&amp;nbsp;= 센터 상품 출고일&lt;/span&gt;&lt;br&gt;&lt;span&gt;배송일 = 센터 상품 배송일&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;labelBackgroundColor=none;fontColor=#333333;" parent="Cq5v2kxeQ0p4bNHD0YzK-1" vertex="1">
           <mxGeometry x="327.5" y="1230" width="165" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oiWx4ncOc-DPdsWxM5ga-0" value="판매자 상품  배송일 조회프로세스" style="swimlane;labelBackgroundColor=#FFFFFF;labelBorderColor=default;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Cq5v2kxeQ0p4bNHD0YzK-1">
+        <mxCell id="oiWx4ncOc-DPdsWxM5ga-0" value="판매자 상품  배송일 조회프로세스" style="swimlane;labelBackgroundColor=none;labelBorderColor=none;startSize=23;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Cq5v2kxeQ0p4bNHD0YzK-1">
           <mxGeometry x="-1140" y="380" width="1100" height="3053" as="geometry" />
         </mxCell>
         <mxCell id="nVqhvKIiBmnwf-QszjKU-0" value="" style="group" vertex="1" connectable="0" parent="oiWx4ncOc-DPdsWxM5ga-0">
@@ -4000,6 +4000,12 @@
         </mxCell>
         <mxCell id="nVqhvKIiBmnwf-QszjKU-88" value="판매자 상품&amp;nbsp;&lt;br&gt;배송일 조회&lt;br&gt;프로세스" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;fontSize=14;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="nVqhvKIiBmnwf-QszjKU-0">
           <mxGeometry x="940" y="-20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nVqhvKIiBmnwf-QszjKU-89" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontColor=#000000;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Cq5v2kxeQ0p4bNHD0YzK-1" source="Cq5v2kxeQ0p4bNHD0YzK-25" target="oiWx4ncOc-DPdsWxM5ga-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="950" as="sourcePoint" />
+            <mxPoint x="-200" y="900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
