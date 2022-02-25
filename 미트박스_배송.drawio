@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T05:47:23.397Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="JOBE6qtBzvpVZX-ZF3cZ" version="16.6.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-02-25T05:55:28.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="WTkerZld4Cdp-Zbcwn9d" version="16.6.3" type="github" pages="15">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
     <mxGraphModel dx="2893" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5236,8 +5236,17 @@
       <root>
         <mxCell id="XaMEyjFh02-TabMpWzBV-0" />
         <mxCell id="XaMEyjFh02-TabMpWzBV-1" parent="XaMEyjFh02-TabMpWzBV-0" />
+        <mxCell id="BObI8YXMCFUglzge6-0F-1" value="미트박스 업무" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=28;strokeColor=#CC0000;strokeWidth=5;fillColor=none;fontColor=#000000;fontStyle=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="XaMEyjFh02-TabMpWzBV-1">
+          <mxGeometry x="1900" y="1230" width="780" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="BObI8YXMCFUglzge6-0F-2" value="배송사업무" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=28;strokeColor=#004C99;strokeWidth=5;fillColor=none;fontColor=#000000;fontStyle=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="XaMEyjFh02-TabMpWzBV-1">
+          <mxGeometry x="2490" y="1230" width="780" height="770" as="geometry" />
+        </mxCell>
         <mxCell id="XaMEyjFh02-TabMpWzBV-2" value="" style="group" vertex="1" connectable="0" parent="XaMEyjFh02-TabMpWzBV-1">
-          <mxGeometry x="-493" y="1560" width="3583" height="696" as="geometry" />
+          <mxGeometry x="-450" y="1230" width="3583" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="BObI8YXMCFUglzge6-0F-0" value="판매자 업무" style="rounded=1;whiteSpace=wrap;html=1;fontSize=28;fillColor=none;strokeWidth=5;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontStyle=1;strokeColor=#336600;" vertex="1" parent="XaMEyjFh02-TabMpWzBV-2">
+          <mxGeometry x="-23" width="2553" height="760" as="geometry" />
         </mxCell>
         <mxCell id="XaMEyjFh02-TabMpWzBV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#FF3333;strokeWidth=3;strokeColor=#00CC00;" edge="1" parent="XaMEyjFh02-TabMpWzBV-2" target="XaMEyjFh02-TabMpWzBV-6">
           <mxGeometry relative="1" as="geometry">
@@ -5278,10 +5287,10 @@
         <mxCell id="XaMEyjFh02-TabMpWzBV-10" value="택배 회사" style="shape=mxgraph.signs.transportation.truck_1;html=1;pointerEvents=1;fillColor=#333333;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;fontSize=16;" vertex="1" parent="XaMEyjFh02-TabMpWzBV-2">
           <mxGeometry x="3165" y="602.5" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XaMEyjFh02-TabMpWzBV-11" value="구매지" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#FF3333;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.home;fontSize=16;" vertex="1" parent="XaMEyjFh02-TabMpWzBV-2">
+        <mxCell id="XaMEyjFh02-TabMpWzBV-11" value="구매지" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#007FFF;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.home;fontSize=16;" vertex="1" parent="XaMEyjFh02-TabMpWzBV-2">
           <mxGeometry x="3483" y="244" width="100" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="XaMEyjFh02-TabMpWzBV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeColor=#FF6666;strokeWidth=3;fillColor=#FF3333;" edge="1" parent="XaMEyjFh02-TabMpWzBV-2" source="XaMEyjFh02-TabMpWzBV-10" target="XaMEyjFh02-TabMpWzBV-11">
+        <mxCell id="XaMEyjFh02-TabMpWzBV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeColor=#007FFF;strokeWidth=3;fillColor=#FF3333;" edge="1" parent="XaMEyjFh02-TabMpWzBV-2" source="XaMEyjFh02-TabMpWzBV-10" target="XaMEyjFh02-TabMpWzBV-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3423" y="643" />
@@ -5343,13 +5352,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XaMEyjFh02-TabMpWzBV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeColor=#FF6666;strokeWidth=3;fillColor=#FF3333;" edge="1" parent="XaMEyjFh02-TabMpWzBV-2" source="XaMEyjFh02-TabMpWzBV-27" target="XaMEyjFh02-TabMpWzBV-11">
+        <mxCell id="XaMEyjFh02-TabMpWzBV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeColor=#007FFF;strokeWidth=3;fillColor=#FF3333;" edge="1" parent="XaMEyjFh02-TabMpWzBV-2" source="XaMEyjFh02-TabMpWzBV-27" target="XaMEyjFh02-TabMpWzBV-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XaMEyjFh02-TabMpWzBV-27" value="지입차량" style="shape=mxgraph.signs.transportation.truck_3;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;fontSize=16;" vertex="1" parent="XaMEyjFh02-TabMpWzBV-2">
           <mxGeometry x="3160" y="242.5" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XaMEyjFh02-TabMpWzBV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeColor=#FF6666;strokeWidth=3;fillColor=#FF3333;" edge="1" parent="XaMEyjFh02-TabMpWzBV-2" source="XaMEyjFh02-TabMpWzBV-29" target="XaMEyjFh02-TabMpWzBV-11">
+        <mxCell id="XaMEyjFh02-TabMpWzBV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeColor=#007FFF;strokeWidth=3;fillColor=#FF3333;" edge="1" parent="XaMEyjFh02-TabMpWzBV-2" source="XaMEyjFh02-TabMpWzBV-29" target="XaMEyjFh02-TabMpWzBV-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3423" y="450" />
@@ -5360,7 +5369,7 @@
         <mxCell id="XaMEyjFh02-TabMpWzBV-29" value="오뚜기 회사" style="shape=mxgraph.signs.transportation.truck_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;fontSize=16;" vertex="1" parent="XaMEyjFh02-TabMpWzBV-2">
           <mxGeometry x="3157" y="410.25" width="178" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XaMEyjFh02-TabMpWzBV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeColor=#FF6666;strokeWidth=3;fillColor=#FF3333;" edge="1" parent="XaMEyjFh02-TabMpWzBV-2" source="XaMEyjFh02-TabMpWzBV-31" target="XaMEyjFh02-TabMpWzBV-11">
+        <mxCell id="XaMEyjFh02-TabMpWzBV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;strokeColor=#007FFF;strokeWidth=3;fillColor=#FF3333;" edge="1" parent="XaMEyjFh02-TabMpWzBV-2" source="XaMEyjFh02-TabMpWzBV-31" target="XaMEyjFh02-TabMpWzBV-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3423" y="68" />
