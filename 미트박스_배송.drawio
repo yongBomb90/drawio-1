@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-04T05:35:44.779Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="E0bUkwXHoCZKvcQs1GH5" version="16.6.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-03-04T09:55:01.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="n9ToHo8kzRUOvmBzoDog" version="16.6.5" type="github" pages="12">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
-    <mxGraphModel dx="2253" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5121,12 +5121,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="z4NG3k3QeXrEigUBz4y1" name="판매자 배송일 프로세스">
-    <mxGraphModel dx="2253" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="91sRI8CnWWV4vhW5IoGm-0" />
         <mxCell id="91sRI8CnWWV4vhW5IoGm-1" parent="91sRI8CnWWV4vhW5IoGm-0" />
         <mxCell id="7mDv4jPoDCQR0Ktrw87G-0" value="" style="group" parent="91sRI8CnWWV4vhW5IoGm-1" vertex="1" connectable="0">
-          <mxGeometry x="-200" y="30" width="1020" height="3300" as="geometry" />
+          <mxGeometry x="-210" y="50" width="1020" height="3300" as="geometry" />
         </mxCell>
         <mxCell id="303gHKu-UiCjycuJp9rz-102" value="" style="group" parent="7mDv4jPoDCQR0Ktrw87G-0" vertex="1" connectable="0">
           <mxGeometry width="1020" height="3203" as="geometry" />
