@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T06:10:29.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="rJIQ6vHCv5y4pXeArs5J" version="16.6.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-03-07T09:12:26.820Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="yJcEu0XZuNoooafHBmTe" version="16.6.5" type="github" pages="12">
   <diagram id="VzNQY1p_oXzeHTvAkOu7" name="배송일/출고일 처리 고도화 1안">
     <mxGraphModel dx="2253" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -680,7 +680,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TA0Z4bNqyo2ag06-_ORL" name="기존 마감 여부 처리">
-    <mxGraphModel dx="2066" dy="2298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="mY5nR9ckyEbrIw-Yr9zr-0" />
         <mxCell id="mY5nR9ckyEbrIw-Yr9zr-1" parent="mY5nR9ckyEbrIw-Yr9zr-0" />
@@ -1475,7 +1475,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JvMys2OIkZyZDPKpUG3r" name="기존출고일처리">
-    <mxGraphModel dx="3720" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7358" dy="2736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1bwJmyN0uH8IyjruuvOx-0" />
         <mxCell id="1bwJmyN0uH8IyjruuvOx-1" parent="1bwJmyN0uH8IyjruuvOx-0" />
